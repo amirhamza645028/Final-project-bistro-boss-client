@@ -14,7 +14,7 @@ const Testimonials = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch('https://bistro-boss-server-seven-sage.vercel.app/reviews')
+        fetch('https://final-project-bistro-boss-sever-1.onrender.com/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])

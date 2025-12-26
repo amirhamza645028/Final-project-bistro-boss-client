@@ -93,7 +93,7 @@ import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
           element: <AdminRoute><UpdateItem></UpdateItem></AdminRoute>,
           // loader: ({params}) => fetch(`http://localhost:5000/menu/${params.id}`)
 
-          loader: ({params}) => fetch(`https://final-project-bistro-boss-server-six.vercel.app/menu/${params.id}`)
+          loader: ({params}) => fetch(`https://final-project-bistro-boss-sever-1.onrender.com/menu/${params.id}`)
         },
         {
           path: 'users',
